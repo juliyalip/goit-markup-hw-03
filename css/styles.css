@@ -1,0 +1,314 @@
+:root {
+    --primary-text-color: #212121;
+    --primery-fon: #FFFFFF;
+    --stile-text-color: #757575;
+    --color-fon-button: #F5F4FA;
+     --button-text-activ:#FFFFFF;
+    --activ-button-color: #2196F3;
+    --activ-text-color:  #2196F3;
+    --footer-fon-color: #2F303A;
+    --footer-text-color: #FFFFFF;
+    --logo-color: #2196F3;
+    --section-komanda-color: #F5F4FA;
+    --color-adress-footer: rgba(255, 255, 255, 0.6);
+    --text-fon: rgba(47, 48, 58, 0.8);  
+    --color-zagolovka: #FFFFFF;
+    --color-border: #EEEEEE;}
+
+body { color: var(--primary-text-color);
+font-family: Roboto, sans-serif;
+font-size: 14px;
+background-color: var(--primery-fon);
+}
+
+li {list-style: none;
+    margin-left: 0;}
+
+/*navigac*/
+
+.navigac:hover, .navigac:focus,
+.contact:hover, .contact:focus
+{color: var(--activ-text-color);
+     }
+    
+.perehod:activ {
+    color: var(--activ-text-color);
+}     
+
+
+.contact {color: var(--stile-text-color);
+    line-height: 1.14;
+           }
+/*aktivnaya ssulka*/
+.current {color: var(--activ-text-color);}
+
+.container {
+    width: 1230px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*ссылки навигации*/
+.main-nav {display: flex;
+align-items: center;
+}
+
+img {display: block;}
+
+span {color: var(--logo-color);}
+
+/*nash logotip*/
+.logo-navigac {font-family: Raleway, cursive;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1.19;
+margin-right: 85px;}    
+
+
+.site-nav {display: flex;
+margin-top: 0;
+margin-bottom: 0;
+}
+
+
+.site-nav .item + .item { margin-left: 50px;}
+
+/* menu */ 
+.navigac {display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+line-height: 1.5;}
+
+.adres-nav {display: flex;
+margin-left: auto;}
+
+.adres-nav .adres-item + .adres-item {margin-left: 50px;}
+
+
+
+.shapka {    
+        text-align: center;
+           }  
+.baner {margin-top: 200px;
+    font-size: 44px;
+    line-height: 1.88;
+    color: var(--button-text-activ);
+    text-transform: uppercase;
+    background-color: var(--text-fon) }   
+ 
+
+     /*centralnaya knopka*/  
+.btn-start {
+display: inline-block;
+background-color: var(--activ-button-color);
+border-radius: 4px;
+color: var(--footer-text-color);
+padding: 10px 32px;
+font-size: 16px;
+font-weight: 700;
+line-height: 1.9;
+margin-top: 30px;}   
+
+
+/* 4 preimyshestva */
+.advantages {display: flex;
+    padding-top: 94px;
+    padding-left: 0;
+justify-content: center;
+margin: 0;}
+
+.advantages .list-advantages + .list-advantages{ margin-left: 30px;}
+
+.list-advantages {width: 270px;
+   }
+
+.title-advantages {margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.zaglawn {
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.14;
+          }
+
+.text-pole {
+            line-height: 1.7;
+        color: var(--stile-text-color);
+        margin-top: 10px;
+        margin-bottom: 0;
+         }          
+
+
+/* fon 3 elementov na preimyshestvax*/
+.rabota {text-align: center;}
+
+.title-section   {
+    margin-top: 94px;
+    margin-bottom: 50px;
+
+    font-size: 36px;
+       display: inline-block;
+    line-height: 1.7;
+    }   
+
+.works { display: flex; justify-content: center;
+padding-left: 0;
+margin-top: 0;
+margin-bottom: 0;}
+
+
+.works .works-list + .works-list {margin-left: 30px;}
+
+.list-works {width: 370px;}
+
+h2 {color: var(--button-text-activ);
+    background-color: var(--text-fon);
+   padding-top: 27px;
+padding-bottom: 27px;
+margin-bottom: 94px;
+}
+
+/* komanda 4 elementa*/
+
+.komanda {background-color: var(--section-komanda-color);
+ text-align: center; }
+
+.sotrudnik {display: flex;
+    justify-content: center;
+  padding-bottom: 94px;
+margin-top: 0;
+margin-bottom: 0;
+padding-left: 0;} 
+
+.sotrudnik .sotrudnik-list + .sotrudnik-list {
+    margin-left: 30px;
+}
+
+h3 { display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 0;
+    
+font-size: 16px;
+line-height: 1.9;}
+
+.social-links { margin-top: 10px;
+    margin-bottom: 16px;
+    
+    line-height: 1.8; 
+    color: var(--stile-text-color);}
+
+
+/* postoyannue klientu */
+
+.klientu {text-align: center;}
+
+.klientu-list {display: flex; margin-top: 0;
+margin-bottom: 94px;}
+
+.klientu-list .klientu-items + .klientu-items {margin-left: 30px;}
+
+/* footer*/
+footer {font-family: Roboto;
+    color: var(--footer-text-color);
+    background-color: var(--footer-fon-color);
+     font-size: 14px;
+  line-height: 1.19;
+  padding-top: 60px;
+      }
+
+.container-foter {display: flex;
+}    
+
+.podval {margin-top: 20px;
+margin-bottom: 0;}
+
+.link-footer {padding-left: 0;
+    margin-top: 9px;
+}
+
+.prisoedinenie {margin-left: 69px;}
+
+.logo-footer {
+    color: var(--footer-text-color);
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+   }
+
+.adres-footer {color: var(--color-adress-footer) ; 
+    line-height: 1.7;
+      } 
+
+
+
+.soc-seti > a {color: var(--color-adress-footer);}
+
+
+ 
+.copirayt {color: var(--stile-text-color);}
+
+
+
+      /* Vkladka Portfolio*/
+.button 
+        {display: inline-block;
+        background-color: var(--color-fon-button);
+        border-radius: 4px;
+         padding: 6px 22px;
+         font-size: 16px;
+         font-weight: 500;
+         line-height: 1.6;}
+
+.button:hover,
+.button:focus {
+    background-color: var(--activ-button-color);
+    color: var(--button-text-activ);
+           }         
+
+.vse-knopki{display: flex;
+justify-content: center;
+margin-bottom: 50px;
+margin-top: 0;
+margin-top: 94px;}
+
+.vse-knopki .list-vse + .list-vse {margin-left: 8px;}
+
+.galeri {display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-top: 0;
+    justify-content: center;
+}
+
+.galeri-list {width: 370px;
+border: 1px solid var(--color-border);
+margin-bottom: 30px;
+}
+
+.galeri .galeri-list + .galeri-list {margin-left: 30px;}
+
+
+.text-box {color:#FFFFFF;
+font-size: 18px;
+line-height: 1.5;
+background-color: #2196F3;}
+
+.title-box {margin-left: 24px;
+    font-size: 18px;
+    line-height: 2;
+    margin-bottom: 4px;
+     }
+
+.subtitle {margin-left: 24px;
+    margin-top: 0;
+    margin-bottom: 20px;
+       line-height: 1.9;
+       color: var(--stile-text-color);
+       }          
