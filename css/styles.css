@@ -287,12 +287,23 @@ margin-top: 94px;}
     padding-left: 0;
     margin-top: 0;
     justify-content: center;
+    border: 1px solid red;
 }
 
 .galeri-list {width: 370px;
-border: 1px solid var(--color-border);
 margin-bottom: 30px;
 }
+
+.cart-content {  
+     border-bottom: 1px solid var(--color-border);
+     border-left: 1px solid var(--color-border);
+     border-right: 1px solid var(--color-border);
+     padding-left: 24px;
+     padding-right: 24px;
+     padding-top: 20px;
+     padding-bottom: 20px;
+  }
+
 
 .galeri .galeri-list + .galeri-list {margin-left: 30px;}
 
@@ -302,15 +313,14 @@ font-size: 18px;
 line-height: 1.5;
 background-color: #2196F3;}
 
-.title-box {margin-left: 24px;
+.title-box {margin-top: 0;
+    margin-bottom: 4px;
     font-size: 18px;
     line-height: 2;
-    margin-bottom: 4px;
-     }
+      }
 
-.subtitle {margin-left: 24px;
-    margin-top: 0;
-    margin-bottom: 20px;
-       line-height: 1.9;
+.subtitle {margin-top: 0;
+    margin-bottom: 0;
+     line-height: 1.9;
        color: var(--stile-text-color);
        }          
