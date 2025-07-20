@@ -21,32 +21,34 @@
     <title>Document</title>
   </head>
   <body>
-    <header class="container-flex header container">
-      <nav class="container-flex nav-container">
-        <a href="./index.html" class="logo">Web<span>Studio</span></a>
-        <ul class="nav-list container-flex">
-          <li class="nav-item">
-            <a href="./index.html" class="nav-link">Studio</a>
-          </li>
-          <li class="nav-item"><a href="" class="nav-link">Portfolio</a></li>
-          <li class="nav-item"><a href="" class="nav-link">Contacts</a></li>
-        </ul>
-      </nav>
+    <header>
+      <div class="container container-flex">
+        <nav class="container-flex nav-container">
+          <a href="./index.html" class="logo">Web<span>Studio</span></a>
+          <ul class="nav-list container-flex">
+            <li class="nav-item">
+              <a href="./index.html" class="nav-link">Studio</a>
+            </li>
+            <li class="nav-item"><a href="" class="nav-link">Portfolio</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Contacts</a></li>
+          </ul>
+        </nav>
 
-      <address class="address-nav">
-        <ul class="address-list container-flex">
-          <li class="address-item">
-            <a href="mailto:info@devstudio.com" class="contact-link"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="address-item">
-            <a href="tel:+110001111111" class="contact-link"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+        <address class="address-nav">
+          <ul class="address-list container-flex">
+            <li class="address-item">
+              <a href="mailto:info@devstudio.com" class="contact-link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="address-item">
+              <a href="tel:+110001111111" class="contact-link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
 
     <main>
@@ -62,30 +64,30 @@
 
       <section class="section">
         <div class="container">
-          <h2 class="title">Features</h2>
+          <h2 class="title-hidden">Features</h2>
           <ul class="container-flex feature-list">
-            <li>
+            <li class="feature-item">
               <h3 class="subtitle">Strategy</h3>
               <p class="text-features">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
-            <li>
+            <li class="feature-item">
               <h3 class="subtitle">Punctuality</h3>
               <p class="text-features">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
-            <li>
+            <li class="feature-item">
               <h3 class="subtitle">Diligence</h3>
               <p class="text-features">
                 Research and confirm brands with the strongest digital growth
                 opportunities and minimize risk.
               </p>
             </li>
-            <li>
+            <li class="feature-item">
               <h3 class="subtitle">Technologies</h3>
               <p class="text-features">
                 Design practice focused on digital experiences. We bring forth a
@@ -102,24 +104,31 @@
           <ul class="team-list container-flex">
             <li class="team-item">
               <img src="./images/mark.jpg" alt="Mark Guerrero" width="264" />
-              <h3 class="subtitle">Mark Guerrero</h3>
-              <p class="text-team">Product Designer</p>
-              <div></div>
+              <div class="text-block">
+                <h3 class="subtitle">Mark Guerrero</h3>
+                <p class="text-team">Product Designer</p>
+              </div>
             </li>
             <li class="team-item">
               <img src="./images/tom.jpg" alt="Tom Ford" width="264" />
-              <h3 class="subtitle">Tom Ford</h3>
-              <p class="text-team">Frontend Developer</p>
+              <div class="text-block">
+                <h3 class="subtitle">Tom Ford</h3>
+                <p class="text-team">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-item">
               <img src="./images/camila.jpg" alt="Camila Garcia" width="264" />
-              <h3 class="subtitle">Camila Garcia</h3>
-              <p class="text-team">Marketing</p>
+              <div class="text-block">
+                <h3 class="subtitle">Camila Garcia</h3>
+                <p class="text-team">Marketing</p>
+              </div>
             </li>
             <li class="team-item">
               <img src="./images/daniel.jpg" alt="Daniel Wilson" width="264" />
-              <h3 class="subtitle">Daniel Wilson</h3>
-              <p class="text-team">UI Designer</p>
+              <div class="text-block">
+                <h3 class="subtitle">Daniel Wilson</h3>
+                <p class="text-team">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -131,8 +140,10 @@
           <ul class="portfolio-list">
             <li class="portfolio-item">
               <img src="./images/bank_app.jpg" alt="bank app" width="360" />
-              <h3 class="subtitle">Banking App</h3>
-              <p class="text-portfolio">App</p>
+              <div class="text-block">
+                <h3 class="subtitle">Banking App</h3>
+                <p class="text-portfolio">App</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <img
@@ -140,8 +151,10 @@
                 alt="cashless payment"
                 width="360"
               />
-              <h3 class="subtitle">Cashless Payment</h3>
-              <p class="text-portfolio">Marketing</p>
+              <div class="text-block">
+                <h3 class="subtitle">Cashless Payment</h3>
+                <p class="text-portfolio">Marketing</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <img
@@ -149,14 +162,18 @@
                 alt="relax and meditation"
                 width="360"
               />
-              <h3 class="subtitle">Meditation App</h3>
-              <p class="text-portfolio">App</p>
+              <div class="text-block">
+                <h3 class="subtitle">Meditation App</h3>
+                <p class="text-portfolio">App</p>
+              </div>
             </li>
 
             <li class="portfolio-item">
               <img src="./images/taxi_app.jpg" alt="taxi app" width="360" />
-              <h3 class="subtitle">Taxi Service</h3>
-              <p class="text-portfolio">Marketing</p>
+              <div class="text-block">
+                <h3 class="subtitle">Taxi Service</h3>
+                <p class="text-portfolio">Marketing</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <img
@@ -164,8 +181,10 @@
                 alt="abstraction desing"
                 width="360"
               />
-              <h3 class="subtitle">Screen Illustrations</h3>
-              <p class="text-portfolio">Design</p>
+              <div class="text-block">
+                <h3 class="subtitle">Screen Illustrations</h3>
+                <p class="text-portfolio">Design</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <img
@@ -173,8 +192,10 @@
                 alt="online courses"
                 width="360"
               />
-              <h3 class="subtitle">Online Courses</h3>
-              <p class="text-portfolio">Marketing</p>
+              <div class="text-block">
+                <h3 class="subtitle">Online Courses</h3>
+                <p class="text-portfolio">Marketing</p>
+              </div>
             </li>
           </ul>
         </div>
