@@ -75,10 +75,6 @@ img{
        gap: 40px;
 }
 
-.nav-item{
-    padding: 24px 0
-}
-
 .address-list .address-item:not(:last-child){
     margin-right: 40px;
 }
@@ -106,6 +102,7 @@ img{
     font-weight: 500;
     letter-spacing: 0.02em;
     color: var(--dark-bg-color);
+    padding: 24px 0;
 }
 
 nav .nav-link:hover,
@@ -178,6 +175,10 @@ margin-right: 24px;
     width: 1px;
     height: 1px;
     margin: -1px;
+    padding: 0;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    border: 0;
 }
 
 .subtitle{
@@ -254,6 +255,7 @@ margin-right: 24px;
 }
 .portfolio-item .text-block{
     padding: 32px 16px;
+    border-top: none;
     border: 1px solid var(--border-bottom-color);
 }
 /*footer*/
