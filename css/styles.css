@@ -45,6 +45,7 @@ img{
     padding-left: 15px;
     padding-right: 15px;
     max-width: 1128px;
+   
 }
 
 .title{
@@ -63,24 +64,21 @@ img{
 
 .container-flex{
     display: flex;
-      align-items: center;
+    align-items: center;
 }
 
 /* Header section*/
 .header{
     border-bottom: 1px solid var(--border-bottom-color);
 }
+
 .nav-list{
-     margin-right: 332px;
+       gap: 40px;
 }
 
 .nav-item{
     padding-top: 24px;
     padding-bottom: 24px;
-}
-
-.nav-list .nav-item:not(:last-child){
-    margin-right: 40px;
 }
 
 .address-list .address-item:not(:last-child){
@@ -122,6 +120,7 @@ color: var(--press-active-color);
 .address-nav{
     font-style: normal;
     letter-spacing: 0.02em ;
+    margin-left: auto;
 }
 
   /* Hero section */
