@@ -1,5 +1,5 @@
 :root{
-    --primary-brand_color: #4D5AE5;
+    --primary-brand_color: #4D5AE5;  
     --press-active-color: #404BBF;
     --dark-bg-color: #2E2F42;
     --primary-background-color: #FFFFFF;
@@ -41,7 +41,7 @@ img{
 
 .container{
     margin: 0 auto;
-    padding: 0 auto;
+    padding: 0 15px;
     max-width:  1158px;
    
 }
@@ -76,8 +76,7 @@ img{
 }
 
 .nav-item{
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px 0
 }
 
 .address-list .address-item:not(:last-child){
@@ -139,16 +138,24 @@ color: var(--press-active-color);
     letter-spacing: 0.02em;
     text-align: center;
     margin-bottom: 48px;
+    max-width: 496px;
   }
 
 .hero-btn{
+    display: block;
     background-color: var(--primary-brand_color);
     color: white;
     font-weight: 500;
      line-height: 1.5;
      letter-spacing: 0.04em;
     cursor: pointer;   
-    padding: 16px 32px;
+   
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 
 .hero-btn:hover,
@@ -165,9 +172,14 @@ margin-right: 24px;
     flex-basis: calc((100% -3*24px)/4);
 }
 
-.title-hidden{
-    visibility: hidden;
+.visually-hidden{
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
 }
+
 .subtitle{
     color: var(--dark-bg-color);
     font-size: 20px;
@@ -208,7 +220,7 @@ margin-right: 24px;
 .team-item{
     background-color: var(--primary-background-color);
     border-radius: 0px 0px 4px 4px;
-
+    width: calc((100%-3*24px) / 4);
 }
 
 .team-section .subtitle{
@@ -240,7 +252,10 @@ margin-right: 24px;
 .portfolio-section .title{
     letter-spacing: 0.02em
 }
-
+.portfolio-item .text-block{
+    padding: 32px 16px;
+    border: 1px solid var(--border-bottom-color);
+}
 /*footer*/
 .footer-section {
     background-color: var(--dark-bg-color);  
