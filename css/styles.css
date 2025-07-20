@@ -1,0 +1,238 @@
+:root{
+    --primary-brand_color: #4D5AE5;
+    --press-active-color: #404BBF;
+    --dark-bg-color: #2E2F42;
+    --primary-background-color: #FFFFFF;
+    --background-light-color: #F4F4FD;
+    --main-text-color: #434455;
+    --footer-text-color: #F4F4FD;
+    --border-bottom-color: #E7E9FC;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    color: var(--main-text-color);
+    background-color: var(--primary-background-color);
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+html {box-sizing: border-box;}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+ul{
+  padding-left: 0;
+  margin: 0;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1128px;
+}
+
+.title{
+    color: var(--dark-bg-color);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11; 
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.container-flex{
+    display: flex;
+      align-items: center;
+}
+
+/* Header section*/
+.header{
+    border-bottom: 1px solid var(--border-bottom-color);
+}
+.nav-list{
+     margin-right: 332px;
+}
+
+.nav-item{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.nav-list .nav-item:not(:last-child){
+    margin-right: 40px;
+}
+
+.address-list .address-item:not(:last-child){
+    margin-right: 40px;
+}
+
+.logo{
+    color: var(--primary-brand_color);
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    margin-right: 76px;
+}
+
+.logo > span{
+    color: var(--dark-bg-color);
+}
+
+.contact-link{
+    color: inherit;
+}
+
+.nav-link{
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(--dark-bg-color);
+}
+
+nav .nav-link:hover,
+nav .nav-link:focus,
+.contact-link:hover,
+.contact-link:focus{
+color: var(--press-active-color);
+}
+
+.address-nav{
+    font-style: normal;
+    letter-spacing: 0.02em ;
+}
+
+  /* Hero section */
+.hero-section{
+    color: white;
+    background-color: var(--dark-bg-color);
+    padding-top: 188px;
+    padding-bottom: 188px;
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+
+.hero-title{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 48px;
+  }
+
+.hero-btn{
+    background-color: var(--primary-brand_color);
+    color: white;
+    font-weight: 500;
+     line-height: 1.5;
+     letter-spacing: 0.04em;
+    cursor: pointer;   
+    padding: 16px 32px;
+}
+
+.hero-btn:hover,
+.hero-btn:focus{
+    background-color: var(--press-active-color);
+}
+
+/* Features sections */
+.feature-list li:not(:last-child){
+margin-right: 24px;
+}
+.subtitle{
+    color: var(--dark-bg-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.text-features{
+   letter-spacing: 0.02em ; 
+}
+
+/* Team section */
+.team-section{
+    background-color: var(--background-light-color);
+     text-align: center;  
+}
+
+.team-list{
+      width: 100%;
+  gap:24px
+}
+
+
+.team-section .title{
+    letter-spacing: 0.02em
+}
+
+.team-section .team-list{
+     letter-spacing: 0.02em;
+   }
+
+.team-item{
+    background-color: var(--primary-background-color);
+}
+
+.team-section .subtitle{
+    text-transform: capitalize;
+}
+
+/* Portfoilio section */
+.portfolio-section .portfolio-list{
+     letter-spacing: 0.02em;
+     display: flex;
+     flex-wrap: wrap;
+   }
+
+.portfolio-item{
+    width: calc((100% - 48px) / 3);
+    border-bottom: 1px solid var(--border-bottom-color);
+   }
+
+.portfolio-item:not(:nth-child(3n)){
+    margin-right: 24px;
+}
+
+.portfolio-section .title{
+    letter-spacing: 0.02em
+}
+
+/*footer*/
+.footer-section {
+    background-color: var(--dark-bg-color);  
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.logo .span-footer{
+    color: var(--footer-text-color);
+}
+
+.text-footer{
+     color: var(--footer-text-color);
+        letter-spacing: 0.02em ;
+}
